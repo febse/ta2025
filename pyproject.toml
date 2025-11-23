@@ -5,11 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "gensim>=4.4.0",
     "jupyter>=1.1.1",
     "nltk>=3.9.2",
     "openai>=2.8.1",
     "pandas>=2.3.3",
     "pip>=25.3",
+    "plotly>=6.5.0",
     "qrcode>=8.2",
     "scikit-learn>=1.7.2",
     "scipy>=1.16.3",
