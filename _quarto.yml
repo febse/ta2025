@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Introduction to Time Series Analysis"
+  author: "Boyko Amarov"
+  date: last-modified
+  chapters:
+    - index.ipynb
+    - 01-Introduction.ipynb
+    - 02-Linear-Difference-Equations.ipynb
+    - 03-Statistics-Review.ipynb
+    # - 04-ARMA-Class.ipynb
+    - 04-ARMA.ipynb
+    - 05-ARMA-Fitting.ipynb
+    - 06-ARIMA-Forecasting.ipynb
+    # - 04-A-Complex-Multiplication.ipynb
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    html-math-method: katex
