@@ -9,6 +9,8 @@
         "Multiclass",
         "Pretrained",
         "scatterplot",
-        "steelblue"
+        "steelblue",
+        "stopword",
+        "Stopwords"
     ]
 }
