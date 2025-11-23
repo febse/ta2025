@@ -3,11 +3,11 @@ project:
   output-dir: _site
 
 book:
-  title: "Introduction to Time Series Analysis"
+  title: "Introduction to Text Analytics"
   author: "Boyko Amarov"
   date: last-modified
   chapters:
-    - index.ipynb
+    - index.qmd
     - 01-Introduction.ipynb
     - references.qmd
 
