@@ -9,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - 01-Introduction.ipynb
+    - 02-Bag-Of-Words-Models.ipynb
     - references.qmd
 
 bibliography: references.bib
