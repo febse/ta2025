@@ -9,6 +9,11 @@
 ![](figures/qr_code.png){font-size=2em}
 :::
 
+## Google Meet Links
+
+- [https://meet.google.com/gxc-bijn-emq](https://meet.google.com/gxc-bijn-emq)
+
+
 ## Notebooks
 
 - [01-Introduction.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/01-Introduction.ipynb)
