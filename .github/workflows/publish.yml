@@ -8,9 +8,6 @@ name: Quarto Publish
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash -l {0}
     permissions:
       contents: write
     steps:
@@ -23,17 +20,24 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: "Setup Miniconda"
-        uses: "conda-incubator/setup-miniconda@v2"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
         with:
-          activate-environment: custom-env
-          environment-file: environment.yml
+          enable-cache: true
+          
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+          
+      - name: Install dependencies
+        run: uv sync
           
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render Quarto
-        run: quarto render .
+        run: uv run quarto render .
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

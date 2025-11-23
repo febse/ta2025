@@ -1,14 +1,16 @@
 [project]
-name = "ts2025"
+name = "ta2025"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "jupyter>=1.1.1",
+    "nltk>=3.9.2",
     "pandas>=2.3.3",
-    "plotly>=6.4.0",
+    "qrcode>=8.2",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
     "seaborn>=0.13.2",
-    "statsforecast>=2.0.3",
-    "statsmodels>=0.14.5",
+    "torch>=2.9.1",
 ]
