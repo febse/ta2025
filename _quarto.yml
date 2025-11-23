@@ -9,7 +9,9 @@ book:
   chapters:
     - index.qmd
     - 01-Introduction.ipynb
-    - 02-Bag-Of-Words-Models.ipynb
+    - 02-BOW-Models.ipynb
+    - 02-02-Preprocessing.ipynb
+    - 02-03-TF-IDF.ipynb
     - references.qmd
 
 bibliography: references.bib
