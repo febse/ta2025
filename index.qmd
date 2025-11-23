@@ -22,8 +22,34 @@ repository:
 
 [{{< var github >}}]({{< var github >}})
 
-## Software Setup
+## Software Setup (Recommended)
 
-Please make sure that you have a working [Google](https://www.google.com/) and [GitHub](https://github.com/signup) accounts.
+Please make sure that you have a working [Google](https://www.google.com/) account.
 
-We recommend that you enable a two factor authentication on both accounts.
+## Software Setup (Local)
+
+First install `git` on your machine: [follow the instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for your operating system. For Windows users,
+download and install [Git for Windows](https://git-scm.com/download/win).
+
+After installing `git`, open `git bash` and clone the repository:
+
+```bash
+git clone {{< var githubHttps >}}
+```
+
+The project dependencies are managed via `uv` so you need to install it first: [follow the instructions](https://docs.astral.sh/uv/getting-started/installation/) for your operating system.
+
+After installing `uv`, navigate to the project folder in your terminal and run:
+
+```bash
+uv sync
+```
+
+This will download and install all required packages.
+
+In `VS Code` ([download here](https://code.visualstudio.com/)), make sure to select the correct Python interpreter: `Ctrl+Shift+P` &rarr; `Python: Select Interpreter` &rarr; `(ta2025) .venv/bin/python`.
+When running the notebooks `VS Code` may ask you to select a kernel. Select the same interpreter as above.
+
+The project directory contains a `.vscode/extensions.json` file with recommended extensions for `VS Code`. When the IDE prompts you to install them, please do so.
+
+For `Pycharm` and other IDEs, please refer to their documentation on how to select a Python interpreter.
