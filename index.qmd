@@ -11,6 +11,11 @@
 
 ## Notebooks
 
+[01-Introduction.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/01-Introduction.ipynb)
+[02-01-BOW-Models.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-01-BOW-Models.ipynb)
+[02-02-Preprocessing.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-02-Preprocessing.ipynb)
+[02-03-TF-IDF.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-03-TF-IDF.ipynb)
+
 ## Schedule
 
 ## Grading
