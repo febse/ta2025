@@ -12,10 +12,10 @@ jobs:
       contents: write
     steps:
       - name: Update ubuntu packages
-        run: sudo apt-get update && sudo apt-get install libpango-1.0-0
+        run: sudo apt-get update
 
-      # - name: Install ubuntu dependencies
-      #   run:  sudo apt-get install libcgal-dev libglu1-mesa-dev libcurl4-openssl-dev zlib1g-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+      - name: Install ubuntu dependencies
+        run:  sudo apt-get install libpango-1.0-0
 
       - name: Check out repository
         uses: actions/checkout@v4
