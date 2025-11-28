@@ -15,7 +15,7 @@ jobs:
         run: sudo apt-get update
 
       - name: Install ubuntu dependencies
-        run:  sudo apt-get install libpango-1.0-0
+        run:  sudo apt-get install libpango1.0-dev
 
       - name: Check out repository
         uses: actions/checkout@v4
