@@ -21,7 +21,10 @@
 - [02-01-BOW-Models.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-01-BOW-Models.ipynb)
 - [02-02-Preprocessing.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-02-Preprocessing.ipynb)
 - [02-03-TF-IDF.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-03-TF-IDF.ipynb)
-
+- [02-04-Extractive-Summarization.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-04-Extractive-Summarization.ipynb)
+- [02-05-Latent-Semantic-Analysis.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-05-Latent-Semantic-Analysis.ipynb)
+- [02-05-A-SVD.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-05-A-SVD.ipynb)
+  
 ## GitHub Repository
 
 All course materials are available in the GitHub repository:
