@@ -6,8 +6,9 @@ L = 5                      # grid extends from -L to L
 angle_degs = np.arange(0, 361, 15)  # rotation angles (degrees)
 np.random.seed(42)
 
-# Rotation matrix
-def R(theta):
+# Rotation matrix (2D)
+
+def R_2D(theta):
     c, s = np.cos(theta), np.sin(theta)
     return np.array([[c, -s], [s, c]])
 
@@ -88,6 +89,7 @@ def compute_rotation_angle(e1_transformed, e2_transformed):
     Returns:
         Rotation angle in degrees
     """
+    
     # Use atan2 on the transformed e1 vector
     angle_rad = np.arctan2(e1_transformed[1], e1_transformed[0])
     angle_deg = np.rad2deg(angle_rad)
@@ -344,7 +346,7 @@ def generate_rotation_matrices(angle_degs):
     matrices_sequence = []
     for deg in angle_degs:
         theta = np.deg2rad(deg)
-        matrices_sequence.append([R(theta)])
+        matrices_sequence.append([R_2D(theta)])
     return matrices_sequence
 
 
