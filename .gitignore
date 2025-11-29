@@ -67,3 +67,7 @@ lit/
 .env
 
 media/
+repo/
+
+/__pycache__/
+*.pyc
