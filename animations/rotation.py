@@ -105,7 +105,8 @@ init_theta = np.deg2rad(0)
 
 
 def show_transformation(matrices_sequence, points, L=5, 
-                        title='Transformation Animation', color_func=None):
+                        title='Transformation Animation', color_func=None,
+                        frame_duration_ms=1000):
     """Show animated transformation of grid and points.
     
     Args:
@@ -319,7 +320,7 @@ def show_transformation(matrices_sequence, points, L=5,
             'showactive': True,
             'buttons': [
                 {'label': 'Play', 'method': 'animate',
-                'args': [None, {'frame': {'duration': 1000, 'redraw': True}, 'fromcurrent': True}]},
+                'args': [None, {'frame': {'duration': frame_duration_ms, 'redraw': True}, 'fromcurrent': True}]},
                 {'label': 'Pause', 'method': 'animate', 'args': [[None], {'mode': 'immediate'}]}
             ]
         }],
@@ -350,7 +351,7 @@ def generate_rotation_matrices(angle_degs):
     return matrices_sequence
 
 
-def show_rotation(angle_degs=None, L=5):
+def show_rotation(angle_degs=None, L=5, frame_duration_ms=1000):
     """Show rotation transformation animation with heart-colored grid.
     
     Args:
@@ -375,10 +376,11 @@ def show_rotation(angle_degs=None, L=5):
         points=pts,
         L=L,
         title='Rotating Grid Colored as Heart (Rotation Matrix)',
-        color_func=heart_line_color
+        color_func=heart_line_color,
+        frame_duration_ms=frame_duration_ms
     )
 
 
 if __name__ == '__main__':
-    fig = show_rotation()
+    fig = show_rotation(frame_duration_ms=600)
     fig.show()
