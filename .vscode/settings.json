@@ -4,6 +4,7 @@
         "ANOVA",
         "Backpropagation",
         "Boyko",
+        "Diagonalization",
         "feedforward",
         "LSTMs",
         "Multiclass",
