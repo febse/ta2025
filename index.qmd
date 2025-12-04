@@ -24,6 +24,7 @@
 - [02-05-A-SVD.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-05-A-SVD.ipynb)
 - [02-05-Latent-Semantic-Analysis.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-05-Latent-Semantic-Analysis.ipynb)
 - [02-04-Extractive-Summarization.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-04-Extractive-Summarization.ipynb)
+- [03-01-Word-Embeddings-Overview.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-01-Word-Embeddings-Overview.ipynb)
 
 ## GitHub Repository
 

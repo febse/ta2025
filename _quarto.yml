@@ -12,6 +12,9 @@ book:
     - 02-01-BOW-Models.ipynb
     - 02-02-Preprocessing.ipynb
     - 02-03-TF-IDF.ipynb
+    - 02-05-A-SVD.ipynb
+    - 02-05-Latent-Semantic_Analysis.ipynb
+    - 03-01-Word-Embeddings-Overview.ipynb
     - references.qmd
 
 bibliography: references.bib
