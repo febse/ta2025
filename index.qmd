@@ -14,7 +14,6 @@
 - First link: [https://meet.google.com/gxc-bijn-emq](https://meet.google.com/gxc-bijn-emq)
 - Second link: [https://meet.google.com/yju-ozmi-ioq](https://meet.google.com/yju-ozmi-ioq)
 
-
 ## Notebooks
 
 - [01-Introduction.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/01-Introduction.ipynb)
@@ -25,6 +24,8 @@
 - [02-05-Latent-Semantic-Analysis.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-05-Latent-Semantic-Analysis.ipynb)
 - [02-04-Extractive-Summarization.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/02-04-Extractive-Summarization.ipynb)
 - [03-01-Word-Embeddings-Overview.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-01-Word-Embeddings-Overview.ipynb)
+- [03-02-ANN-Regression.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-02-ANN-Regression.ipynb)
+- [03-03-ANN-Classification.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-03-ANN-Classification.ipynb)
 
 ## GitHub Repository
 
