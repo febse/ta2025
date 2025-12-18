@@ -26,6 +26,8 @@
 - [03-01-Word-Embeddings-Overview.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-01-Word-Embeddings-Overview.ipynb)
 - [03-02-ANN-Regression.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-02-ANN-Regression.ipynb)
 - [03-03-ANN-Classification.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-03-ANN-Classification.ipynb)
+- [03-04-Word2Vec.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-04-Word2Vec.ipynb)
+- [04-01-Using-Word-Embeddings.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/04-01-Using-Word-Embeddings.ipynb)
 
 ## GitHub Repository
 

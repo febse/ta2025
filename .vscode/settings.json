@@ -10,6 +10,7 @@
         "Multiclass",
         "Pretrained",
         "scatterplot",
+        "softmax",
         "steelblue",
         "stopword",
         "Stopwords"
