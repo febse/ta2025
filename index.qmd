@@ -9,11 +9,6 @@
 ![](figures/qr_code.png){font-size=2em}
 :::
 
-## Google Meet Links
-
-- First link: [https://meet.google.com/gxc-bijn-emq](https://meet.google.com/gxc-bijn-emq)
-- Second link: [https://meet.google.com/yju-ozmi-ioq](https://meet.google.com/yju-ozmi-ioq)
-
 ## Notebooks
 
 - [01-Introduction.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/01-Introduction.ipynb)
@@ -28,6 +23,7 @@
 - [03-03-ANN-Classification.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-03-ANN-Classification.ipynb)
 - [03-04-Word2Vec.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/03-04-Word2Vec.ipynb)
 - [04-01-Using-Word-Embeddings.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/04-01-Using-Word-Embeddings.ipynb)
+
 
 ## GitHub Repository
 
