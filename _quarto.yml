@@ -17,6 +17,8 @@ book:
     - 03-01-Word-Embeddings-Overview.ipynb
     - 03-02-ANN-Regression.ipynb
     - 03-03-ANN-Classification.ipynb
+    - 03-04-Word2Vec.ipynb
+    - 04-01-Using-Word-Embeddings.ipynb
     - references.qmd
 
 bibliography: references.bib
