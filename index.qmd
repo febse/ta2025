@@ -9,6 +9,22 @@
 ![](figures/qr_code.png){font-size=2em}
 :::
 
+## Assignment
+
+The assignment is due by **February 05, 2026**. To access it, please visit the following 
+GitHub Classroom link:
+
+[https://classroom.github.com/a/tHAeY3HU](https://classroom.github.com/a/tHAeY3HU)
+
+You need to be logged in to your GitHub account to accept the assignment (if you don't have one, please create it first). This is meant to be a group assignment with up to 4 members per group. When you follow the link it will prompt you to select your name from a roster and to choose your team. The first person to accept the assignment will create the repository for the team. Other team members can then join the repository by following the same link and selecting the already created team.
+
+The assignment notebook is in the file called `assignment.ipynb` in your repository.
+
+## How to access the assignment
+
+{{< video figures/assignment-submission.mkv aspect-ratio="16x9" >}}
+
+
 ## Notebooks
 
 - [01-Introduction.ipynb](https://colab.research.google.com/github/febse/ta2025/blob/main/01-Introduction.ipynb)
